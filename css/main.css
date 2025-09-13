@@ -1,4 +1,4 @@
-.header {
+.page_header {
     padding: 1px;
     text-align: center;
     background: #303030;
@@ -14,10 +14,10 @@ body {
     background-repeat: no-repeat;
     
     color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
-p {
+.container {
     font-family: cursive, serif;
 }
 
@@ -32,6 +32,7 @@ p {
 
 }
 
-button:disabled {
-    background-color: white !important;
+.menu_button button:disabled {
+    background: #363636;
+    background: linear-gradient(90deg,rgba(54, 54, 54, 1) 0%, rgba(36, 36, 36, 1) 100%);
 }
